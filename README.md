@@ -53,3 +53,4 @@ Mye. Det er mange utfordringer med en Privat Server pga. det er ikke alltid løs
 Første gang jeg prøvde meg på å endre farger på ett sverd, brukte jeg flere dager fordi det var ekstremt vanskelig. All farge og bilde data er i tekst filer men må være på en veldig spesifikk måte Disse filene var .ebd, .ebm, .ebs, .edt, .efk, .efx, .egs, .els, .elt, .enh, .eps, .mfx, .tex og .win. Jeg jobbet mest med ebm, ebs, efx og eps filer da dette var "vanlige" ting for meg å sette inn i spillet eller endre på.
 
 Noe som også tok uhorvelig lang tid var å lage en montage av alle vinger som vi har i spillet.
+Disse kan du se her: [https://drive.google.com/drive/folders/1cPfasKu7pjcM7aHeG4EmKaZnRcoJjjrf?usp=sharing]()
