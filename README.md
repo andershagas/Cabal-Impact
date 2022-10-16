@@ -40,3 +40,5 @@ Du velger også login/ip-addresse til SQL serveren, og kan lagre disse til egen 
 
 ![image](https://user-images.githubusercontent.com/42244235/196046469-ff36a1ae-105c-4bfa-99dc-a2db63f6c99f.png)
 Dette er den vi bruker mest, her kan du laste inn alt av informasjon til en spillers karakter og endre som du vil.
+
+![image](https://user-images.githubusercontent.com/42244235/196046505-92fd0688-ee52-4c69-bbd3-46a0dbb8863f.png)
