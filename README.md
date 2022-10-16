@@ -19,6 +19,9 @@ Vi bruker .enc krypterings verktøy med DOC nøkkel for klient kryptering og div
 
 Det har også vært en del verktøy som er laget for Cabal for å komme forbi våre anti-cheats så jeg fikk oppgave med å dekryptere noen av disse verktøyene. Dog jeg lagde en http server for å hijacke requestene som dette programmet sendte for å verifisere login.
 
+![image](https://user-images.githubusercontent.com/42244235/196046963-2c6a051a-2370-4876-851d-7d29dbfb7922.png)
+
+
 Admin Tools
 =========
 
@@ -42,3 +45,11 @@ Du velger også login/ip-addresse til SQL serveren, og kan lagre disse til egen 
 Dette er den vi bruker mest, her kan du laste inn alt av informasjon til en spillers karakter og endre som du vil.
 
 ![image](https://user-images.githubusercontent.com/42244235/196046505-92fd0688-ee52-4c69-bbd3-46a0dbb8863f.png)
+
+Hva er ett av de største utfordringene med dette prosjektet?
+===========
+
+Mye. Det er mange utfordringer med en Privat Server pga. det er ikke alltid løsninger eller hjelp er å få, så du må rett og slett bare prøve til du blir gal.
+Første gang jeg prøvde meg på å endre farger på ett sverd, brukte jeg flere dager fordi det var ekstremt vanskelig. All farge og bilde data er i tekst filer men må være på en veldig spesifikk måte Disse filene var .ebd, .ebm, .ebs, .edt, .efk, .efx, .egs, .els, .elt, .enh, .eps, .mfx, .tex og .win. Jeg jobbet mest med ebm, ebs, efx og eps filer da dette var "vanlige" ting for meg å sette inn i spillet eller endre på.
+
+Noe som også tok uhorvelig lang tid var å lage en montage av alle vinger som vi har i spillet.
