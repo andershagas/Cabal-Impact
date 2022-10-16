@@ -1,0 +1,16 @@
+{
+  "name": "cabal-crypto",
+  "version": "1.0.0",
+  "description": "CABAL crypto is a client file \u001b[A\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[3~\u001b[3~\u001b[3~\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Voidex",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "md5": "^2.3.0",
+    "replace-in-file": "^6.2.0"
+  }
+}
