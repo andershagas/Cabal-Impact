@@ -20,6 +20,21 @@ Vi bruker .enc krypterings verktøy med DOC nøkkel for klient kryptering og div
 Det har også vært en del verktøy som er laget for Cabal for å komme forbi våre anti-cheats så jeg fikk oppgave med å dekryptere noen av disse verktøyene. Dog jeg lagde en http server for å hijacke requestene som dette programmet sendte for å verifisere login.
 
 ![image](https://user-images.githubusercontent.com/42244235/196046963-2c6a051a-2370-4876-851d-7d29dbfb7922.png)
+![image](https://user-images.githubusercontent.com/42244235/196048725-cd01931b-1b78-4bee-84c0-f8624e36fb86.png)
+![image](https://user-images.githubusercontent.com/42244235/196048740-e83aa294-eacf-43d2-807f-75aea200ddef.png)
+![image](https://user-images.githubusercontent.com/42244235/196048746-6d853dd2-8cc8-41b2-a70d-d82fcce9a8de.png)
+
+![image](https://user-images.githubusercontent.com/42244235/196049103-ed613c98-1ff5-4b28-aad1-ebedb9535886.png)
+
+I dette exploit programmet som var laget mot vår server, var det en del feller og ting vi kunne gått på.
+![image](https://user-images.githubusercontent.com/42244235/196049129-7085be20-d0d6-4768-980e-97b2cd6184c7.png)
+![image](https://user-images.githubusercontent.com/42244235/196049145-35d76e05-a59c-4d47-b58b-6aa34649361e.png)
+Så jeg lagde min egen host for å komme forbi dems security sjekk.
+
+![image](https://user-images.githubusercontent.com/42244235/196049168-4279e73d-2186-4f83-adf5-fdf954c85a03.png)
+(Kali Linux)
+
+Da lagde jeg et program som bruker dotnetaobscanmemory for å endre kode i "exploiten", som da sender request til MIN server som da sier tilbake at login er riktig, boom.
 
 CABAL Crypto/Encrypto
 =========
@@ -32,6 +47,7 @@ Denne filen er den som sier hvilket våpen, bilde, effekter, og alt annet i spil
 Dette er hvordan det vanligvis ser ut som:
 
 ![image](https://user-images.githubusercontent.com/42244235/196048494-67e5daf5-4c49-4c5f-858c-de9f4c87cc80.png)
+
 
 Admin Tools
 =========
