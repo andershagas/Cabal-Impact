@@ -21,6 +21,17 @@ Det har også vært en del verktøy som er laget for Cabal for å komme forbi v�
 
 ![image](https://user-images.githubusercontent.com/42244235/196046963-2c6a051a-2370-4876-851d-7d29dbfb7922.png)
 
+CABAL Crypto/Encrypto
+=========
+
+For at vi kunne lage våre filer sikrere, lagde jeg et krypterings program som vil gjøre det uendlig mye vanskeligere for andre privat servere eller ondsinnede til å ta våre elementer eller kode å bruke i dems eget spill eller server.
+
+I en klient, har du noe som heter cabal.enc eller cabal.dec, som er kryptert og ikke kryptert.
+Denne filen er den som sier hvilket våpen, bilde, effekter, og alt annet i spillet som pointer til hvilken fil i klienten.
+
+Dette er hvordan det vanligvis ser ut som:
+
+![image](https://user-images.githubusercontent.com/42244235/196048494-67e5daf5-4c49-4c5f-858c-de9f4c87cc80.png)
 
 Admin Tools
 =========
