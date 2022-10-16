@@ -14,7 +14,7 @@ Vi brukte en CentOS server host, samt FTP server for å hente filer direkte fra 
 
 Mitt ansvar var rundt server drift og fullstack for server, å implementere nye NPC'er, objekter, sette opp dungeons, kryptering av client og par andre ting. Da jeg først startet var det veldig overveldene men jeg fikk god greie på ting etterhvert.
 
-Vi bruker .enc krypterings verktøy med DOC nøkkel for klient kryptering og diverse filer som har kryptert data.
+Vi bruker .enc krypterings verktøy med xor nøkkel for klient kryptering og diverse filer som har kryptert data.
 ![image](https://user-images.githubusercontent.com/42244235/196045824-e7a5b3e4-80c5-406f-8c1e-3065091c9b99.png)
 
 Det har også vært en del verktøy som er laget for Cabal for å komme forbi våre anti-cheats så jeg fikk oppgave med å dekryptere noen av disse verktøyene. Dog jeg lagde en http server for å hijacke requestene som dette programmet sendte for å verifisere login.
@@ -48,6 +48,7 @@ Dette er hvordan det vanligvis ser ut som:
 
 ![image](https://user-images.githubusercontent.com/42244235/196048494-67e5daf5-4c49-4c5f-858c-de9f4c87cc80.png)
 
+Etter kryptering, blir alle source filene til våpen osv, navngit en random string som da blir byttet ut i cabal.dec fil, som DA blir kryptert igjen over til .enc med xor koder.
 
 Admin Tools
 =========
